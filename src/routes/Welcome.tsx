@@ -47,7 +47,6 @@ const WelcomePage: React.FC = () => {
         <div className="delivery-card-image-desktop">
           <img src="/cat_340x250.png" alt="Cat Image" />
         </div>
-
         <div className="delivery-card-content">
           <div>
             <div className="delivery-card-title">{message.title}</div>
@@ -58,7 +57,6 @@ const WelcomePage: React.FC = () => {
               Total price: {currencyFormat.format(message.totalPrice)}
             </div>
           </div>
-
           <div className="delivery-card-buttons">
             <button disabled={true} className="delivery-card-button see-details-button">
               SEE DETAILS
