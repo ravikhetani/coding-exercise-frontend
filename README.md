@@ -8,7 +8,7 @@ Note - This is assuming that the backend server is running on port 3000 if not, 
 npm run dev
 ```
 
-- Goto http://localhost:5173/welcome/<userid> to display content
+- Goto http://localhost:5173/welcome/{userid} to display content
 
 
 # React + TypeScript + Vite
