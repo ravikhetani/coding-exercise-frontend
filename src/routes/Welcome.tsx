@@ -40,9 +40,12 @@ const WelcomePage: React.FC = () => {
   return message ? (
     <div className="container">
       {message.freeGift && <div className="free-gift-tag">FREE GIFT</div>}
+      <div className="delivery-card-image-mobile">
+        <img src="/cat_50x50.png" alt="Cat Image" />
+      </div>
       <div className="delivery-card">
-        <div className="delivery-card-image">
-          <img src="/cat-image.png" alt="Cat Image" />
+        <div className="delivery-card-image-desktop">
+          <img src="/cat_340x250.png" alt="Cat Image" />
         </div>
 
         <div className="delivery-card-content">
