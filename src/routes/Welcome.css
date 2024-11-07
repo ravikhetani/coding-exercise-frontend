@@ -1,0 +1,105 @@
+/* Container for the entire card */
+.container {
+  margin-top: 100px;
+  position: relative;
+}
+
+.delivery-card {
+  display: flex;
+  width: 800px;
+  height: 250px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Left section for the image */
+.delivery-card-image {
+  background-color: #f9f9f9;
+}
+
+/* Image styling */
+.delivery-card-image img {
+  width: 340px;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Free gift tag - positioned outside the top corner */
+.free-gift-tag {
+  position: absolute;
+  top: -10px; /* Moves the tag above the container */
+  right: -10px; /* Moves the tag outside the right edge of the container */
+  background-color: #ffb8ef;
+  color: #773e75;
+  padding: 4px 14px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px solid #e7aada;
+  transform: rotate(8deg);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delivery-card-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+/* Right section for text and buttons */
+
+/* Title and price */
+.delivery-card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #0d8112;
+}
+
+/* Message text */
+.delivery-card-message {
+  font-size: 1.2rem;
+  color: #585858;
+
+  margin: 8px 0 16px;
+}
+
+.delivery-card-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+/* Buttons */
+.delivery-card-buttons {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 20px;
+}
+
+.delivery-card-button {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.see-details-button {
+  background-color: #0d8112;
+  color: white;
+  border: none;
+}
+
+.edit-delivery-button {
+  background-color: white;
+  color: #0d8112;
+  border: 2px solid #0d8112;
+}
