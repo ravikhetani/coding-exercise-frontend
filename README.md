@@ -1,3 +1,20 @@
+# Running the app
+
+Assuming this going to be run locally for purposes of the test. 
+
+# Running the app
+
+Assuming this going to be run locally for purposes of the test. 
+
+Note - This is assuming that the backend server is running on port 3000 if not, update `VITE_REST_SERVICE_API_URL` in `.env.local`.
+
+```sh
+npm run dev
+```
+
+- Goto http://localhost:5173/welcome/<userid> to display content
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
